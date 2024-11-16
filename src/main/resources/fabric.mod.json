@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "circuitbuilder",
+  "version": "${version}",
+  "name": "CircuitBuilder",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/circuitbuilder/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "jas7277.circuitbuilder.client.CircuitbuilderClient"
+    ],
+    "main": [
+      "jas7277.circuitbuilder.Circuitbuilder"
+    ]
+  },
+  "mixins": [
+    "circuitbuilder.mixins.json",
+    {
+      "config": "circuitbuilder.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
