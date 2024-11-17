@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "circuitbuilder:block/lil_circuit_base"
+    }
+  }
+}

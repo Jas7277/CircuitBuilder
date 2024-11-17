@@ -1,0 +1,10 @@
+{
+  "item.circuitbuilder.lil_redstone": "Lil Redstone",
+  "item.circuitbuilder.lil_repeater": "Lil Redstone Repeater",
+
+  "block.circuitbuilder.lil_redstone_block": "Block of Lil Redstone",
+  "block.circuitbuilder.lil_glowstone": "Lil Glowstone",
+  "block.circuitbuilder.lil_circuit_base": "Lil Circuit Base",
+
+  "itemgroup.circuit_builder": "Circuit Builder"
+}
