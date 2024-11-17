@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "circuitbuilder:block/lil_redstone_block"
+    }
+  }
+}
